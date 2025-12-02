@@ -1011,11 +1011,16 @@ if __name__ == "__main__":
 **使用方法:**
 
 1. 安装后,浏览器右上角会出现容器图标
+
 2. 点击图标,创建多个容器(如 "LMArena-1", "LMArena-2", "LMArena-3")
+
+   ![](https://cdn.nlark.com/yuque/0/2025/png/21449790/1764641870011-db60ce13-f0d7-4280-ad0b-8868d988e353.png)
+
 3. 在每个容器中打开 `https://lmarena.ai/`
+
 4. 每个容器都是独立的客户端
 
-![Firefox 插件](https://cdn.nlark.com/yuque/0/2025/png/21449790/1764467309768-011f1d63-5f03-47db-b8c2-77b7db9eda1a.png)
+![](https://cdn.nlark.com/yuque/0/2025/png/21449790/1764642245036-a2e8b3a2-1626-4d9f-a1d7-a6630b1c98e5.png)
 
 **开启会话恢复**
 
