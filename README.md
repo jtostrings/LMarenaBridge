@@ -577,7 +577,7 @@ chrome://extensions/
 - **微信:** tostring1(如果扫码失败,请直接搜索微信号)
 - **备用 QQ:** 854569279
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21449790/1759328682014-7d1623af-0bc5-46d2-b2b8-a91665235130.jpeg" alt="联系方式" style="zoom:25%;" />
+<img src="https://cdn.nlark.com/yuque/0/2025/png/21449790/1764642665134-935dc760-23cc-4164-b585-445bc441ad9d.png" style="zoom:25%;" />
 
 > **💡 提示:** 授权只需要验证一次,成功后会自动保存,下次启动不需要重新输入
 
