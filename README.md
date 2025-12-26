@@ -1,4 +1,6 @@
-﻿# 🤖 LMArena-API
+﻿[English](README_EN.md) | [中文](README.md)
+
+# 🤖 LMArena-API
 
 > **免费使用 Claude、GPT-4、Gemini 等顶级 AI 模型的桌面工具**
 
