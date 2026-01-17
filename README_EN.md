@@ -43,6 +43,8 @@ LMArena-API is a desktop application that allows you to use various top-tier lar
 
 ## 🎯 Who is this tool for?
 
+> 💡 **For more fun tools, visit:** [https://ai.tostring.site/](https://ai.tostring.site/)
+
 | 👤 User Type | Usage Scenario | Recommended Client |
 |------------|---------|-----------|
 | **Daily User** | Chat with AI, writing assistance, Q&A | Cherry Studio |
@@ -313,6 +315,8 @@ Please contact the author via the following methods:
 WeChat: tostring1 (If scanning fails, please search for the WeChat ID directly)
 Backup QQ: 854569279
 Telegram: https://t.me/jtostring
+
+> 💡 **For more fun tools, visit:** [https://ai.tostring.site/](https://ai.tostring.site/)
 
 <img src="images/image-authorization-qrcode.png" width="200" />
 
