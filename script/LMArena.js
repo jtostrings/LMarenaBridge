@@ -1,12 +1,12 @@
 ﻿// ==UserScript==
-// @name         LMArena
+// @name         arena
 // @namespace    http://tampermonkey.net/
 // @version      3.1
 // @description  LMArena API - text chat only
 // @author       abc
-// @match        https://lmarena.ai/*
-// @match        https://*.lmarena.ai/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=lmarena.ai
+// @match        https://arena.ai/*
+// @match        https://*.arena.ai/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=arena.ai
 // @connect      localhost
 // @connect      127.0.0.1
 // @grant        none
@@ -162,7 +162,6 @@
     window.fetch = function (...args) {
         const urlArg = args[0];
         let urlString = '';
-
         if (urlArg instanceof Request) {
             urlString = urlArg.url;
         } else if (urlArg instanceof URL) {
@@ -290,12 +289,12 @@
 
         // Step 1: Requesting upload URL
         console.log(`[LMArena API] Step 1: Requesting upload URL (Action: ${ACTION_ID_STEP1.substring(0, 6)}...)`);
-        const step1Resp = await fetch("https://lmarena.ai/?mode=direct", {
+        const step1Resp = await fetch("https://arena.ai/?mode=direct", {
             method: "POST",
             headers: {
                 "Content-Type": "text/plain;charset=UTF-8",
                 "Next-Action": ACTION_ID_STEP1,
-                "Referer": "https://lmarena.ai/?mode=direct"
+                "Referer": "https://arena.ai/?mode=direct"
             },
             body: JSON.stringify([filename, mimeType])
         });
@@ -323,12 +322,12 @@
 
         // Step 3: Get Download URL
         console.log(`[LMArena API] Step 3: Requesting signed URL (Action: ${ACTION_ID_STEP3.substring(0, 6)}...)`);
-        const step3Resp = await fetch("https://lmarena.ai/?mode=direct", {
+        const step3Resp = await fetch("https://arena.ai/?mode=direct", {
             method: "POST",
             headers: {
                 "Content-Type": "text/plain;charset=UTF-8",
                 "Next-Action": ACTION_ID_STEP3,
-                "Referer": "https://lmarena.ai/?mode=direct"
+                "Referer": "https://arena.ai/?mode=direct"
             },
             body: JSON.stringify([key])
         });
