@@ -116,20 +116,20 @@ Cherry Studio 是一款跨平台的 AI 对话客户端，界面美观，功能�
 
 ---
 
-### Roo Code（VS Code AI 编程助手）
+### Kilo Code（VS Code AI 编程助手）
 
-Roo Code 是一个强大的 VS Code AI 编程插件，类似于 Cursor AI。
+Kilo Code 是一个强大的 VS Code AI 编程插件，类似于 Cursor AI。
 
 **配置步骤：**
 
-1. 在 VS Code 扩展市场安装 **Roo Code**
+1. 在 VS Code 扩展市场安装 **Kilo  Code**
 2. 打开插件设置 → 选择「Custom/自定义提供商」
 3. 填写配置：
    - **Base URL：** `http://127.0.0.1:61001/v1`
    - **API Key：** `123456`
    - **Model：** 选择你想用的模型
 
-![Roo Code 配置](images/image-roo-code-config.png)
+![image-20260131142446882](images/image-20260131142446882.png)
 
 **现在你可以：**
 - 💬 与 AI 对话讨论代码问题
