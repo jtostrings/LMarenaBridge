@@ -334,7 +334,7 @@ Telegram: https://t.me/jtostring
 2. 打开「系统设置」→「隐私与安全性」
 3. 滚动到底部，点击「仍要打开」
 
-**方法二：** 右键点击应用 → 选择「打开」
+**方法二：** 在终端执行：xattr -cr /Applications/LMArena-api.app
 
 </details>
 
