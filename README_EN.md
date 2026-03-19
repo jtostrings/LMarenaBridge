@@ -406,6 +406,13 @@ If you frequently encounter 403 errors, it is recommended to switch to **Websock
 </details>
 
 <details>
+<summary><b>How to solve 401 Error?</b></summary>
+
+Starting from March 2026, you must be logged in to call the interfaces under the direct mode of the arena platform. Therefore, you need to first log in with a Google account on the web page, and then use websocket as its client. For detailed configuration, please refer to the [Websocket-client.md](Websocket-client.md) document.
+
+</details>
+
+<details>
 <summary><b>How to upgrade software?</b></summary>
 
 **Windows User Upgrade Steps:**

@@ -406,6 +406,13 @@ Telegram: https://t.me/jtostring
 </details>
 
 <details>
+<summary><b>遇到 401 错误如何解决？</b></summary>
+
+从2026年3月开始，arena平台调用direct模式下面的接口必须要登录，所以需要在网页端先用谷歌账号进行登录，然后使用 websocket 做为它的客户端使用。详细配置请参考 [Websocket-client.md](Websocket-client.md) 文档。
+
+</details>
+
+<details>
 <summary><b>如何升级软件？</b></summary>
 
 **Windows 用户升级步骤：**
